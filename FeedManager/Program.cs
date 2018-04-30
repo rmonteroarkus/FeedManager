@@ -6,6 +6,10 @@ namespace FeedManager
     {
         static void Main(string[] args)
         {
+            Scrapper scrapper = new Scrapper();
+            string dummy = scrapper.scrapper();
+
+
             Console.WriteLine("Hello World!");
         }
     }
